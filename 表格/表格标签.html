@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>姓名</td> <td>性别</td> <td>年龄</td>
+        </tr>
+        <tr><td>小王</td> <td>男</td> <td>30</td></tr>
+        <tr><td>小玉</td> <td>女</td> <td>28</td></tr>
+        <tr><td>小明</td> <td>男</td> <td>31</td></tr>
+
+    </table>
+
+    <table>
+        <tr>
+            <th>姓名</th> <th>性别</th> <th>年龄</th>
+        </tr>
+        <tr><td>小王</td> <td>男</td> <td>30</td></tr>
+        <tr><td>小玉</td> <td>女</td> <td>28</td></tr>
+        <tr><td>小明</td> <td>男</td> <td>31</td></tr>
+        <!--<th>是表头单元格，居中加粗-->
+    </table>
+    <table align="center" border="1" cellpadding="5" cellspacing="0" height="200"  width="300">
+    <thead>    <tr>
+            <th>姓名</th> <th>性别</th> <th>年龄</th>
+        </tr></thead>
+     <tbody>   <tr><td>小王</td> <td>男</td> <td>30</td></tr>
+        <tr><td>小玉</td> <td>女</td> <td>28</td></tr>
+        <tr><td>小明</td> <td>男</td> <td>31</td></tr></tbody>
+    </table>
+    <!--cellpadding是文字内容到边框距离，cellspacing是单元格之间距离，border是设置边框-->
+    <table width="139" height="69" border="1" cellspacing="0">
+        <thead>
+        <tr> <th>1</th> <th colspan="2">2</th>  </tr>
+        </thead>
+        <tbody>
+        <tr> <td rowspan="2">4</td> <td>5</td> <td>6</td> </tr>
+        <tr>  <td>8</td> <td>9</td> </tr>
+        <!--合并单元格 colspan夸列合并 rowspan夸行合并-->
+        </tbody>
+
+    </table>
+</body>
+</html>
